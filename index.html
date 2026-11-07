@@ -5,14 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hodie download</title>
 <meta name="color-scheme" content="light dark">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="icon-256.png">
 <style>
-:root{--bg:#f7f6fb;--card:#fff;--fg:#1c1b29;--muted:#6a6880;--line:#e3e1ee;--pri:#4f46e5;--on:#fff}
-@media (prefers-color-scheme:dark){:root{--bg:#12111c;--card:#1b1a29;--fg:#ecebf6;--muted:#9a98b2;--line:#2b2a3d;--pri:#8b84ff;--on:#12111c}}
+:root{--bg:#f7f6fb;--card:#fff;--fg:#1c1b29;--muted:#6a6880;--line:#e3e1ee;--pri:#4338ca;--on:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#12111c;--card:#1b1a29;--fg:#ecebf6;--muted:#9a98b2;--line:#2b2a3d;--pri:#9496f7;--on:#12111c}}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif}
 main{max-width:30rem;margin:0 auto;padding:2.5rem 16px 3rem}
-.logo{width:56px;height:56px;border-radius:16px;background:var(--pri);display:grid;place-items:center;margin-bottom:1rem}
-.logo i{display:block;width:30px;height:15px;border-radius:30px 30px 0 0;background:var(--on)}
+.logo{display:block;width:72px;height:72px;border-radius:18px;margin-bottom:1rem}
 h1{font-size:1.75rem;margin:0 0 .25rem}
 .lede{color:var(--muted);margin:0 0 1.5rem}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.25rem}
@@ -28,7 +30,7 @@ code{font-size:.8rem}
 </head>
 <body>
 <main>
-  <div class="logo" aria-hidden="true"><i></i></div>
+  <img class="logo" src="icon-256.png" width="72" height="72" alt="Hodie icon: an open book with a rising sun">
   <h1>Hodie</h1>
   <p class="lede">Your day, kept on your phone. Android only.</p>
 
@@ -47,6 +49,7 @@ code{font-size:.8rem}
   <ol>
     <li>Tap the button and let the download finish.</li>
     <li>Open the file. If Android asks, allow your browser to install unknown apps, then go back and tap Install.</li>
+    <li>If Google Play Protect says "App scan recommended", tap More details, then "Install without scanning". Scan app would send the file to Google.</li>
     <li>Updating? Install the new file over the old one. Your notes, tasks and settings stay.</li>
   </ol>
   <p class="note">Hodie keeps everything on your phone. Opening this page sends nothing about you. The app is signed with one key, so Android only accepts updates from the same source.</p>
