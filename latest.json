@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 20,
-  "versionName": "1.2.1",
+  "versionCode": 23,
+  "versionName": "1.3.2",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.2.1/hodie-1.2.1.apk",
-  "sha256": "a306667f512ea9b59d3a237b2ec6111cb33f68714dc126ee2574e402c7150e0f",
-  "size": 38120434,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.2/hodie-1.3.2.apk",
+  "sha256": "646e1767f914a016fc00037e323a40ae6693aa65942883dae6f9c5121a600259",
+  "size": 38153126,
   "date": "2026-11-07",
-  "notes": "Map of where you were, phone status history, steadier saving, note toolbar above the keyboard."
+  "notes": "Updates now arrive inside the app. Also the map, trail and phone status."
 }
