@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hodie download</title>
+<meta name="color-scheme" content="light dark">
+<style>
+:root{--bg:#f7f6fb;--card:#fff;--fg:#1c1b29;--muted:#6a6880;--line:#e3e1ee;--pri:#4f46e5;--on:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#12111c;--card:#1b1a29;--fg:#ecebf6;--muted:#9a98b2;--line:#2b2a3d;--pri:#8b84ff;--on:#12111c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,sans-serif}
+main{max-width:30rem;margin:0 auto;padding:2.5rem 16px 3rem}
+.logo{width:56px;height:56px;border-radius:16px;background:var(--pri);display:grid;place-items:center;margin-bottom:1rem}
+.logo i{display:block;width:30px;height:15px;border-radius:30px 30px 0 0;background:var(--on)}
+h1{font-size:1.75rem;margin:0 0 .25rem}
+.lede{color:var(--muted);margin:0 0 1.5rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.25rem}
+.btn{display:block;text-align:center;background:var(--pri);color:var(--on);text-decoration:none;font-weight:600;padding:.9rem 1rem;border-radius:12px}
+.btn[aria-disabled=true]{opacity:.5;pointer-events:none}
+dl{display:grid;grid-template-columns:auto 1fr;gap:.35rem 1rem;margin:1rem 0 0;font-size:.9rem}
+dt{color:var(--muted)}dd{margin:0;word-break:break-all}
+h2{font-size:1.05rem;margin:1.75rem 0 .5rem}
+ol{padding-left:1.25rem;margin:0}li{margin:.35rem 0}
+small,.note{color:var(--muted);font-size:.875rem}
+code{font-size:.8rem}
+</style>
+</head>
+<body>
+<main>
+  <div class="logo" aria-hidden="true"><i></i></div>
+  <h1>Hodie</h1>
+  <p class="lede">Your day, kept on your phone. Android only.</p>
+
+  <div class="card">
+    <a id="dl" class="btn" href="#" aria-disabled="true">Checking the latest version…</a>
+    <dl id="facts" hidden>
+      <dt>Version</dt><dd id="ver"></dd>
+      <dt>Released</dt><dd id="date"></dd>
+      <dt>Size</dt><dd id="size"></dd>
+      <dt>SHA-256</dt><dd><code id="sha"></code></dd>
+    </dl>
+    <p id="notes" class="note"></p>
+  </div>
+
+  <h2>Install</h2>
+  <ol>
+    <li>Tap the button and let the download finish.</li>
+    <li>Open the file. If Android asks, allow your browser to install unknown apps, then go back and tap Install.</li>
+    <li>Updating? Install the new file over the old one. Your notes, tasks and settings stay.</li>
+  </ol>
+  <p class="note">Hodie keeps everything on your phone. Opening this page sends nothing about you. The app is signed with one key, so Android only accepts updates from the same source.</p>
+</main>
+<script>
+fetch('latest.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json()).then(j => {
+  const mb = (j.size / 1048576).toFixed(1) + ' MB';
+  const a = document.getElementById('dl');
+  a.href = j.apk; a.removeAttribute('aria-disabled'); a.textContent = 'Download Hodie ' + j.versionName + ' (' + mb + ')';
+  document.getElementById('ver').textContent = j.versionName + ' (build ' + j.versionCode + ')';
+  document.getElementById('date').textContent = j.date;
+  document.getElementById('size').textContent = mb;
+  document.getElementById('sha').textContent = j.sha256;
+  document.getElementById('notes').textContent = j.notes || '';
+  document.getElementById('facts').hidden = false;
+}).catch(() => { document.getElementById('dl').textContent = 'Could not load the latest version. Try again.'; });
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "app": "com.blutrixx.hodie",
+  "versionCode": 20,
+  "versionName": "1.2.1",
+  "minimumCode": 1,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.2.1/hodie-1.2.1.apk",
+  "sha256": "a306667f512ea9b59d3a237b2ec6111cb33f68714dc126ee2574e402c7150e0f",
+  "size": 38120434,
+  "date": "2026-11-07",
+  "notes": "Map of where you were, phone status history, steadier saving, note toolbar above the keyboard."
+}
