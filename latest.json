@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 24,
-  "versionName": "1.3.3",
+  "versionCode": 25,
+  "versionName": "1.3.4",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.3/hodie-1.3.3.apk",
-  "sha256": "f64ac90c701e80a57229dea33f89743b332f8ee034564ec60364bc1996bcbfef",
-  "size": 38162894,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.4/hodie-1.3.4.apk",
+  "sha256": "ad49f5fef3670a4aa10ae5d75a921c876248a6abef147ea4555aa774d1769827",
+  "size": 38162518,
   "date": "2026-11-07",
-  "notes": "Stops are named by area. A cleaner map line, and Show every point for the raw fixes."
+  "notes": "Stop dots placed by location accuracy, and Name it starts from the area name."
 }
