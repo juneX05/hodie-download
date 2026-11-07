@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 31,
-  "versionName": "1.3.10",
+  "versionCode": 32,
+  "versionName": "1.3.11",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.10/hodie-1.3.10.apk",
-  "sha256": "ea9b45c78e6b6c8bb923cf67c0b6e2df043911a7cfb35af4b495922b35fb3893",
-  "size": 40864406,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.11/hodie-1.3.11.apk",
+  "sha256": "04c4983aa3037b795affdaafd921495a5a8a01d43f96e692d17ac9cf19579142",
+  "size": 40866282,
   "date": "2026-11-07",
-  "notes": "The timeline is now latest first: where you are now on top, earlier stops further down."
+  "notes": "This week in Places now shows the places you have not named too, grouped by street or ward."
 }
