@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 30,
-  "versionName": "1.3.9",
+  "versionCode": 31,
+  "versionName": "1.3.10",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.9/hodie-1.3.9.apk",
-  "sha256": "12dc4538d4b4f92c0181a910fcd626822e80729bac6fe3a42c3d5d3fb69cc149",
-  "size": 40864002,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.10/hodie-1.3.10.apk",
+  "sha256": "ea9b45c78e6b6c8bb923cf67c0b6e2df043911a7cfb35af4b495922b35fb3893",
+  "size": 40864406,
   "date": "2026-11-07",
-  "notes": "Plan a day: plan tomorrow in the evening, see today’s plan on Today, and the plan against the day under Where I was."
+  "notes": "The timeline is now latest first: where you are now on top, earlier stops further down."
 }
