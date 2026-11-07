@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 28,
-  "versionName": "1.3.7",
+  "versionCode": 29,
+  "versionName": "1.3.8",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.7/hodie-1.3.7.apk",
-  "sha256": "2054f5cf39e4f5e1b18f8a820c5a777f92b4e2a765ab47978f202063b0368047",
-  "size": 40827398,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.8/hodie-1.3.8.apk",
+  "sha256": "5fd969b2b150afd473031324087b281d100202d6e085454a139daa1eeef6d915",
+  "size": 40839614,
   "date": "2026-11-07",
-  "notes": "Follow the roads: your path is snapped to the roads, and gaps are drawn dotted along the likely way."
+  "notes": "The day in full: entries note where you added them, and Where I was shows them under the stop where they were added."
 }
