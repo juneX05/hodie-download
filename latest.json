@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 23,
-  "versionName": "1.3.2",
+  "versionCode": 24,
+  "versionName": "1.3.3",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.2/hodie-1.3.2.apk",
-  "sha256": "646e1767f914a016fc00037e323a40ae6693aa65942883dae6f9c5121a600259",
-  "size": 38153126,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.3/hodie-1.3.3.apk",
+  "sha256": "f64ac90c701e80a57229dea33f89743b332f8ee034564ec60364bc1996bcbfef",
+  "size": 38162894,
   "date": "2026-11-07",
-  "notes": "Updates now arrive inside the app. Also the map, trail and phone status."
+  "notes": "Stops are named by area. A cleaner map line, and Show every point for the raw fixes."
 }
