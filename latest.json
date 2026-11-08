@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 34,
-  "versionName": "1.3.13",
+  "versionCode": 35,
+  "versionName": "1.3.14",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.13/hodie-1.3.13.apk",
-  "sha256": "5e186e03ab0b7183fb75feb7ac06416b35b35460013cf22ffefb017789b358ed",
-  "size": 40883946,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.14/hodie-1.3.14.apk",
+  "sha256": "12533e2d19a5d9a2301dab43ad6df8b8573f63b0add16f5d0f2ed6a3f0e128c0",
+  "size": 40884390,
   "date": "2026-11-08",
-  "notes": "Alarm-style reminders with several triggers, a real Notifications list, and a task reminder that is now saved."
+  "notes": "Alarm reminders turn the screen on when the phone is asleep."
 }
