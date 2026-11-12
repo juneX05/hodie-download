@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 45,
-  "versionName": "1.3.24",
+  "versionCode": 46,
+  "versionName": "1.3.25",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.24/hodie-1.3.24.apk",
-  "sha256": "753f1ac3d5ee67cb76c13089ee59a234e89ce40132f8c558200a19d18b35e3fb",
-  "size": 41472482,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.25/hodie-1.3.25.apk",
+  "sha256": "752e9c5a5089d25919085dc3d370178131b5731de469efdb1f382a8bd642afc0",
+  "size": 41473250,
   "date": "2026-11-12",
-  "notes": "Search a PDF book and copy the text of a page. Zoom button, notes on the page, screen stays on while reading."
+  "notes": "Reading a PDF counts only the pages you turn, not a jump from search or the slider."
 }
