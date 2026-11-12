@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 36,
-  "versionName": "1.3.15",
+  "versionCode": 43,
+  "versionName": "1.3.22",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.15/hodie-1.3.15.apk",
-  "sha256": "a61947411940d749c94ef96a3aa9efd5237cc0e422707a4cc7447df48b0b6ba1",
-  "size": 40891294,
-  "date": "2026-11-08",
-  "notes": "Alarm reminders keep ringing until you answer: the sound loops until Done, Snooze or Dismiss."
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.22/hodie-1.3.22.apk",
+  "sha256": "88f7958e5cc7fadb92cf38959f7c4560d12aa7145a9f9be7e08a60ca6667c95a",
+  "size": 40923106,
+  "date": "2026-11-12",
+  "notes": "Read PDF books inside Hodie with your page tracked. Reading opens on phones with real data. Steadier stops indoors."
 }
