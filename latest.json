@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 46,
-  "versionName": "1.3.25",
+  "versionCode": 47,
+  "versionName": "1.3.26",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.25/hodie-1.3.25.apk",
-  "sha256": "752e9c5a5089d25919085dc3d370178131b5731de469efdb1f382a8bd642afc0",
-  "size": 41473250,
-  "date": "2026-11-12",
-  "notes": "Reading a PDF counts only the pages you turn, not a jump from search or the slider."
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.26/hodie-1.3.26.apk",
+  "sha256": "89a7f764942af619872ad6728ccb0bacbe4d4a222a37a5b6c95d48b62a84373f",
+  "size": 41480022,
+  "date": "2026-11-13",
+  "notes": "Start a book from its PDF: pick the file and the title, author and pages are filled in. The PDF reader now flows as one column of pages you scroll through."
 }
