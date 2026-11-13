@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 50,
-  "versionName": "1.3.29",
+  "versionCode": 51,
+  "versionName": "1.3.30",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.29/hodie-1.3.29.apk",
-  "sha256": "c3d15a3f24af39f448ada466613a168a94ec307884cc0c9bb206da18e63e5466",
-  "size": 41539154,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.30/hodie-1.3.30.apk",
+  "sha256": "590a7c20cff209b0984eba170d5777080e4b46e2ccc2604f2a1e6b1d7984d2dd",
+  "size": 41546986,
   "date": "2026-11-13",
-  "notes": "Settings > Logs now records saving, files, PDFs and reading too (counts only, never your content), so problems on your phone can be followed up."
+  "notes": "Every part of Hodie now writes to Settings > Logs: what was added, changed or removed (counts only, never your content), and any action that fails, with its reason."
 }
