@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 49,
-  "versionName": "1.3.28",
+  "versionCode": 50,
+  "versionName": "1.3.29",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.28/hodie-1.3.28.apk",
-  "sha256": "d5b917010ad599408c0499ce51aeb495cf32a554740e2dff912cc59d592ade2e",
-  "size": 41535210,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.29/hodie-1.3.29.apk",
+  "sha256": "c3d15a3f24af39f448ada466613a168a94ec307884cc0c9bb206da18e63e5466",
+  "size": 41539154,
   "date": "2026-11-13",
-  "notes": "Listen to your PDF books as audiobooks (Swahili and English voices, screen off). Settings > Logs now records what the player did, to help when something goes wrong."
+  "notes": "Settings > Logs now records saving, files, PDFs and reading too (counts only, never your content), so problems on your phone can be followed up."
 }
