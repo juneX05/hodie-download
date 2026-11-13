@@ -1,11 +1,11 @@
 {
   "app": "com.blutrixx.hodie",
-  "versionCode": 47,
-  "versionName": "1.3.26",
+  "versionCode": 48,
+  "versionName": "1.3.27",
   "minimumCode": 1,
-  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.26/hodie-1.3.26.apk",
-  "sha256": "89a7f764942af619872ad6728ccb0bacbe4d4a222a37a5b6c95d48b62a84373f",
-  "size": 41480022,
+  "apk": "https://github.com/juneX05/hodie-download/releases/download/v1.3.27/hodie-1.3.27.apk",
+  "sha256": "b1a78cdb77d8f20dbb8db5e059e75de19dc4257a2cd8bb6da30e05a60cf50346",
+  "size": 41533386,
   "date": "2026-11-13",
-  "notes": "Start a book from its PDF: pick the file and the title, author and pages are filled in. The PDF reader now flows as one column of pages you scroll through."
+  "notes": "Listen to your PDF books: make an audiobook (Swahili and English voices), listen with the screen off, and it counts in your reading log."
 }
